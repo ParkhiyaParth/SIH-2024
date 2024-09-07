@@ -1,12 +1,15 @@
 // Import necessary components from React Router
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes, Form ,Navigate } from "react-router-dom";
 import Footer from "./Component/Footer";
 import Header from "./Component/Header";
-import Hero from "./Component/Hero";
-import Quotes from "./Component/Quotes";
+import Explore from "./Component/Explore";
+import AboutUs from "./Component/AboutUs";
 import SignIn from "./Component/SignIn";
 import Register from "./Component/Register";
 import Model from "./Component/Model";
+import Home from "./Component/Home";
+import Contact from "./Component/Contact";
+import DetailForm from "./Component/DetailForm";
 
 // App.jsx
 function App() {
@@ -17,11 +20,15 @@ function App() {
         <Routes>
           <Route path="/sign-in" element={<SignIn />} />
           <Route path="/register" element={<Register />} />
-          <Route path="/" element={<Hero />} />
-          <Route path="/quotes" element={<Quotes />} />
+          <Route path="/explore" element={<Explore />} />
+          <Route path="/aboutus" element={<AboutUs />} />
           <Route path="/model" element={<Model />} />
+          <Route path="/home" element={<Home/>} />
+          <Route path="/contact" element={<Contact/>} />
+          <Route path="/Detailform" element={<DetailForm />} />
+          <Route path="*" element={<Navigate to="/home" />} />
         </Routes>
-        <Quotes />
+        
         <Footer />
       </div>
     </Router>

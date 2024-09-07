@@ -1,4 +1,4 @@
-const Quotes = () => {
+const AboutUs = () => {
   return (
     <section className="py-20">
       <div className="text-center mb-12">
@@ -29,4 +29,4 @@ const Quotes = () => {
   );
 };
 
-export default Quotes;
+export default AboutUs;
