@@ -21,9 +21,10 @@ const Register = () => {
     };
 
     return (
-        <div className="max-w-md mx-auto p-6 bg-white shadow-lg rounded-lg">
+        <section className='py-10'>
+        <div className="max-w-md mx-auto p-6 bg-white shadow-lg rounded-lg py-4">
             <h1 className="text-2xl font-bold mb-6">Register</h1>
-            <form onSubmit={handleSubmit} className="space-y-4">
+            <form onSubmit={handleSubmit} className="space-y-4 py-8">
                 <div>
                     <label htmlFor="firstName" className="block text-sm font-medium text-gray-700">First Name:</label>
                     <input
@@ -86,12 +87,13 @@ const Register = () => {
                 </div>
                 <button
                     type="submit"
-                    className="w-full py-2 px-4 bg-indigo-600 text-white font-semibold rounded-md shadow-sm hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
+                    className="w-full py-2 px-4 bg-purple-600 text-white font-semibold rounded-md shadow-sm hover:bg-white hover:border hover:text-black focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
                 >
                     Register
                 </button>
             </form>
         </div>
+        </section>
     );
 };
 

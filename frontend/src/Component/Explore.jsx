@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom";
 
-const Hero = () => {
+const Explore = () => {
   return (
-    <section className="flex flex-col items-center justify-center py-20 bg-gray-100">
+    <section className="flex flex-col items-center justify-center py-48 bg-gray-100">
       <div className="w-5/12 float-left">
         <h1 className="text-4xl font-bold">
           Explore Our Own AI MedMitra Model
@@ -25,4 +25,4 @@ const Hero = () => {
   );
 };
 
-export default Hero;
+export default Explore;

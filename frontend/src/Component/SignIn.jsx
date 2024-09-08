@@ -39,14 +39,14 @@ const SignIn = () => {
 
           <button
             type="submit"
-            className="w-full bg-indigo-600 text-white py-2 px-4 rounded-md hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+            className="w-full bg-purple-600 text-white py-2 px-4 rounded-md hover:bg-white hover:border hover:text-black focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
           >
             Sign In
           </button>
         </form>
 
         <div className="mt-4 text-center">
-          <a href="#" className="text-indigo-600 hover:underline">
+          <a href="#" className="text-purple-600 hover:underline">
             Forgot your password?
           </a>
         </div>
@@ -54,8 +54,8 @@ const SignIn = () => {
         <div className="mt-6 text-center">
           <p className="text-gray-600">
             Do not have an account?{" "}
-            <a href="#" className="text-indigo-600 hover:underline">
-              Sign Up
+            <a href="./register" className="text-purple-600 hover:underline">
+              Register
             </a>
           </p>
         </div>
