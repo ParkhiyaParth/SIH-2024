@@ -13,7 +13,7 @@ const Header = () => {
           Home
         </a>
         <a href="DetailForm" className="text-gray-600 hover:text-gray-900 hover:underline hover:decoration-purple-600">
-          DetailForm
+          Form
         </a>
         <a href="Explore" className="text-gray-600 hover:text-gray-900 hover:underline hover:decoration-purple-600">
           Explore
