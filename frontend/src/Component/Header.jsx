@@ -19,7 +19,7 @@ const Header = () => {
           Explore
         </a>
         <a href="Contact" className="text-gray-600 hover:text-gray-900 hover:underline hover:decoration-purple-600">
-          Contact
+          ContactUs
         </a>
         <a href="AboutUs" className="text-gray-600 hover:text-gray-900  hover:underline hover:decoration-purple-600">
           About Us
