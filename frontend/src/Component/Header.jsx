@@ -8,7 +8,7 @@ const Header = () => {
           <img src="./src/assets/logo.png" className="h-20 w-20"></img>
         </Link>
       </div>
-      <nav className="space-x-4">
+      <nav className="space-x-10 justify-center items-center">
         <a href="Home" className="text-gray-600 hover:text-gray-900 hover:underline hover:decoration-purple-600">
           Home
         </a>
@@ -19,7 +19,7 @@ const Header = () => {
           Explore
         </a>
         <a href="Contact" className="text-gray-600 hover:text-gray-900 hover:underline hover:decoration-purple-600">
-          ContactUs
+          Contact Us
         </a>
         <a href="AboutUs" className="text-gray-600 hover:text-gray-900  hover:underline hover:decoration-purple-600">
           About Us
@@ -27,10 +27,10 @@ const Header = () => {
       </nav>
       <div>
         <Link to="/sign-in">
-          <button className="mr-4 px-4 py-2 border rounded hover:bg-purple-600 hover:text-white">Sign In</button>
+          <button className="mr-4 px-4 py-2 border rounded">Sign In</button>
         </Link>
         <Link to={"/register"}>
-          <button className="px-4 py-2 bg-purple-600 text-white rounded hover:bg-white hover:text-black border">
+          <button className="px-4 py-2 text-white rounded hover:bg-white hover:text-black border">
             Register
           </button>
         </Link>

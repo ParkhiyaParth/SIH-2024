@@ -16,8 +16,8 @@ const Explore = () => {
       </div>
       <div className="mt-6 space-x-4">
         <Link to={"/Model"}>
-          <button className="px-4 py-2 bg-gray-200 border rounded">
-            Get Started ➡️
+          <button className="px-4 py-2 bg-gray-400 border rounded ">
+            Get Started ➡
           </button>
         </Link>
       </div>

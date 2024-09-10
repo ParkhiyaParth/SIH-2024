@@ -9,7 +9,7 @@ const AboutUs = () => {
         {Array(6)
           .fill(0)
           .map((_, i) => (
-            <div key={i} className="bg-gray-100 p-6 rounded shadow">
+            <div key={i} className="bg-gray-100 p-6 rounded shadow shadow-md rounded-md transition-shadow focus-within:shadow-lg">
               <p className="text-xl italic">Quote</p>
               <div className="flex items-center mt-4">
                 <img

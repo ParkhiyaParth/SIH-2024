@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -35,8 +35,8 @@ const Contact = () => {
               name="name"
               id="name"
               value={formData.name}
+              className="w-full px-4 py-2 border border-purple-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-gray-700"
               onChange={handleChange}
-              className="w-full px-4 py-2 border border-purple-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-600"
               required
             />
           </div>
@@ -50,8 +50,8 @@ const Contact = () => {
               name="email"
               id="email"
               value={formData.email}
+              className="w-full px-4 py-2 border border-purple-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-gray-700"
               onChange={handleChange}
-              className="w-full px-4 py-2 border border-purple-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-600"
               required
             />
           </div>
@@ -64,16 +64,16 @@ const Contact = () => {
               name="message"
               id="message"
               value={formData.message}
+              className="w-full px-4 py-2 border border-purple-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-gray-700"
               onChange={handleChange}
-              className="w-full px-4 py-2 border border-purple-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-600"
               rows="4"
               required
             />
           </div>
 
           <button
+            className="w-full  text-white font-semibold py-2 rounded-lg hover:bg-white hover:text-black"
             type="submit"
-            className="w-full bg-purple-600 text-white font-semibold py-2 rounded-lg hover:bg-white hover:text-black border focus:outline-none focus:ring-2 focus:ring-purple-600"
           >
             Send Message
           </button>

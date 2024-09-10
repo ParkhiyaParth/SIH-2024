@@ -93,7 +93,7 @@ const Model = () => {
         {!error && (
           <button
             onClick={getResponse}
-            className="min-w-[20%] border-l border-gray-300 bg-white text-gray-600 font-bold p-2 hover:bg-purple-600 hover:text-white hover:text-black transition-all"
+            className="min-w-[20%] border-l border-gray-300 bg-white text-gray-600 font-bold p-2 hover:text-white hover:text-black transition-all mt-2"
           >
             Ask Me!
           </button>
@@ -101,7 +101,7 @@ const Model = () => {
         {error && (
           <button
             onClick={clear}
-            className="min-w-[10%] border-l border-gray-300 bg-red-100 text-red-600 font-bold p-2 hover:bg-red-200 transition-all"
+            className="min-w-[10%] border-l border-gray-300 bg-red-100 text-red-600 font-bold p-2 hover:bg-red-200 transition-all mt-2"
           >
             Clear
           </button>
