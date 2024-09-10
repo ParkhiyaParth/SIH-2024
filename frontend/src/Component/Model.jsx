@@ -93,7 +93,7 @@ const Model = () => {
         {!error && (
           <button
             onClick={getResponse}
-            className="min-w-[20%] border-l border-gray-300 bg-white text-gray-600 font-bold p-2 hover:text-white hover:text-black transition-all mt-2"
+            className="min-w-[20%] border-l border-gray-300 bg-white text-gray-600 font-bold p-2 hover:text-black transition-all mt-2"
           >
             Ask Me!
           </button>
