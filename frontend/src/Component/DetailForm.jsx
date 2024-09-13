@@ -139,3 +139,5 @@ const DetailForm = () => {
 };
 
 export default DetailForm;
+
+
