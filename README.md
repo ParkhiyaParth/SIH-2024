@@ -1,69 +1,181 @@
-MedMitra Web Application
-MedMitra is a web-based application designed for the online testing and monitoring of the quality of medicines and consumables. This project leverages a modern tech stack to create a seamless and interactive experience for users.
+# MedMitra Web Application - SIH 2024
 
-Tech Stack
-Frontend: React, Vite, Tailwind CSS
-Backend: Node.js, Express, MongoDB
-AI Integration: Google Generative AI
+MedMitra is a Smart India Hackathon 2024 web application focused on online testing, monitoring, and quality-related support for medicines and consumables. The project combines a modern web interface, backend APIs, database support, and AI integration to create an interactive prototype.
 
+## Project Overview
 
-Installation Guide
-Backend Setup...................
+The purpose of this project is to build a digital platform that helps users manage and interact with medicine/consumable quality-related information. It was developed as a hackathon-style solution where speed, clarity, practical implementation, and team collaboration were important.
 
-Navigate to the backend directory:
-bash:
-cd /path/to/backend
+## What This Project Does
 
-Install Dependencies: Run the following command to install the required backend dependencies:
-bash:
-npm install nodemon express dotenv @google/generative-ai
+- Provides a web interface for medicine and consumable quality-related workflows
+- Uses a React-based frontend for a responsive user experience
+- Uses a Node.js and Express backend for API handling
+- Stores application data using MongoDB
+- Integrates Google Generative AI for smart responses and AI-assisted functionality
+- Demonstrates full-stack development in a hackathon environment
 
-Start the Backend Server: Use this command to start the backend server:
-bash:
+## Tech Stack
+
+### Frontend
+
+- React
+- Vite
+- Tailwind CSS
+- JavaScript
+
+### Backend
+
+- Node.js
+- Express.js
+- MongoDB
+- dotenv
+- nodemon
+
+### AI Integration
+
+- Google Generative AI
+
+## Project Structure
+
+```text
+SIH-2024/
+├── frontend/          # React + Vite frontend
+├── backend/           # Node.js + Express backend
+└── README.md
+```
+
+The exact folder structure may vary depending on the latest project updates.
+
+## Prerequisites
+
+Before running the project, install:
+
+- Node.js
+- npm
+- MongoDB or MongoDB Atlas connection
+- Google Generative AI API key, if AI features are enabled
+
+## Backend Setup
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/ParkhiyaParth/SIH-2024.git
+```
+
+2. Go to the backend folder:
+
+```bash
+cd SIH-2024/backend
+```
+
+3. Install dependencies:
+
+```bash
+npm install
+```
+
+4. Create a `.env` file and add required configuration:
+
+```env
+MONGO_URI=your_mongodb_connection_string
+GOOGLE_API_KEY=your_google_generative_ai_key
+PORT=5000
+```
+
+5. Start the backend server:
+
+```bash
 npm run start:backend
+```
 
-Frontend Setup................
+If the script name is different, run the entry file using:
 
-Navigate to the frontend directory:
-bash:
-cd /path/to/frontend
+```bash
+node server.js
+```
 
-Install Dependencies: Run the following commands to install React and Tailwind CSS:
-bash:
-npm install react
-npm install -D tailwindcss
-npx tailwindcss init
+or
 
-Start the Frontend Development Server: Use this command to run the frontend server:
-bash:
+```bash
+nodemon server.js
+```
+
+## Frontend Setup
+
+1. Open a new terminal and move to the frontend folder:
+
+```bash
+cd SIH-2024/frontend
+```
+
+2. Install dependencies:
+
+```bash
+npm install
+```
+
+3. Start the frontend development server:
+
+```bash
 npm run dev
+```
 
+4. Open the app in your browser:
 
-How to Run the Project............
+```text
+http://localhost:5173
+```
 
-Start the Backend: Open a terminal, navigate to the backend folder, and run:
-bash:
+## How to Run the Full Project
+
+Run backend and frontend in two separate terminals:
+
+```bash
+# Terminal 1
+cd backend
 npm run start:backend
+```
 
-Start the Frontend: Open another terminal, navigate to the frontend folder, and run:
-bash:
+```bash
+# Terminal 2
+cd frontend
 npm run dev
+```
 
-Ensure both the backend and frontend are running simultaneously.
+## Key Features
 
+- Clean and responsive user interface
+- Full-stack architecture
+- MongoDB-based data storage
+- AI-powered interaction using Google Generative AI
+- Developer-friendly project structure
+- Hackathon-ready prototype implementation
 
+## Learning Outcomes
 
+Through this project, I practiced:
 
-Key Features
-Interactive UI: Built with React + Vite and styled using Tailwind CSS for a responsive, fast, and clean interface.
-AI-Powered: Integrated with Google Generative AI to provide smart responses and predictive capabilities.
-Database: Uses MongoDB for managing the data related to medicines and consumables.
-Real-Time Updates: Hot-reloading in development mode ensures a smooth experience for developers.
+- React and Vite frontend development
+- Tailwind CSS styling
+- Node.js and Express backend development
+- MongoDB integration
+- AI API integration
+- Building a project under hackathon constraints
+- Team-based software development
 
+## Future Improvements
 
+- Add screenshots and demo video
+- Add proper API documentation
+- Add authentication if required
+- Improve error handling
+- Add deployment instructions
+- Add testing workflow
 
-Contributing
-Feel free to contribute to the MedMitra project by submitting issues or pull requests. Let's collaborate to make this project better!
+## Author
 
-Commands:
-![image](https://github.com/user-attachments/assets/50674511-c448-4149-9058-5623aac50996)
+**Parth Parkhiya**
+
+GitHub: [ParkhiyaParth](https://github.com/ParkhiyaParth)
